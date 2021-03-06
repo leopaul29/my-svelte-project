@@ -1,6 +1,7 @@
 <script>
 	export let name;
 	import Exo1 from './Exo1.svelte'
+	import Exo2 from './Exo2.svelte'
 </script>
 
 <main>
@@ -9,6 +10,7 @@
 </main>
 
 <Exo1/>
+<Exo2/>
 
 <style>
 	main {
