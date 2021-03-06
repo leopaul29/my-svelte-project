@@ -1,11 +1,14 @@
 <script>
 	export let name;
+	import Exo1 from './Exo1.svelte'
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
+
+<Exo1/>
 
 <style>
 	main {
