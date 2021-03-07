@@ -2,6 +2,12 @@
 	export let name;
 	import Exo1 from './Exo1.svelte'
 	import Exo2 from './Exo2.svelte'
+	import Bio from './Bio.svelte'
+	import Button from './Button.svelte'
+	import SuperButton from './SuperButton.svelte'
+	import Fibonacci from './Fibonacci.svelte'
+	import Liste from './Liste.svelte'
+	import Pokedex from './Pokedex.svelte'
 </script>
 
 <main>
@@ -11,6 +17,12 @@
 
 <Exo1/>
 <Exo2/>
+<Bio/>
+<Button/>
+<SuperButton/>
+<Fibonacci/>
+<Liste/>
+<Pokedex/>
 
 <style>
 	main {
